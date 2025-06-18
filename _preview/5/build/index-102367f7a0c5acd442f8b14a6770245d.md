@@ -1,4 +1,0 @@
-# Resource Gallery
-
-::: {pythia-resources}
-:::
