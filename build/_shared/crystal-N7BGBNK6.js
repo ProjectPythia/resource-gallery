@@ -1,1 +1,0 @@
-import{a}from"/resource-gallery/build/_shared/chunk-DORBKLGC.js";import"/resource-gallery/build/_shared/chunk-KPSTTWTG.js";import"/resource-gallery/build/_shared/chunk-OZE3FFNP.js";export default a();
