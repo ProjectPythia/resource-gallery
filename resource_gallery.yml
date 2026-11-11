@@ -1595,3 +1595,27 @@
       - ecology
       - data science
       - remote sensing
+
+- title: Case studies on public cloud data (GOES-16, National Water Model, Sentinel-2)
+  url: https://eugo-inc.github.io/ganymede/demo_notebooks/case_studies/
+  thumbnail: https://eugo-inc.github.io/ganymede/assets/gallery/goes16_netcdf.png
+  description: |
+    Three worked notebooks that read public NOAA and Copernicus data straight from cloud storage, with no account: GOES-16 land surface temperature from NetCDF (quality flags, fixed grid to latitude and longitude), National Water Model streamflow forecasts at USGS gauges, and Sentinel-2 COGs found through STAC (windowed reads, resampling, cloud-masked NDVI). Each scales out with Ray.
+  authors:
+  - name: Eugo, Inc.
+    url: https://eugo.io
+  tags:
+    packages:
+      - xarray
+      - matplotlib
+      - numpy
+      - pandas
+      - rasterio
+      - pystac-client
+      - pyproj
+      - ray
+    formats:
+      - tutorial
+    domains:
+      - remote sensing
+      - hydrology
